@@ -159,10 +159,7 @@ export default function CartScreen() {
 
   return (
     <View className="flex-1 bg-gray-50">
-      <View className="bg-primary-500 pt-12 pb-6 px-4">
-        <Text className="text-2xl font-bold text-white">
-          Shopping Cart
-        </Text>
+      <View className="bg-primary-500 pt-6 pb-6 px-4">
         {state.items.length > 0 && (
           <Text className="text-primary-100 mt-1">
             {state.itemCount} item{state.itemCount !== 1 ? 's' : ''} in your cart

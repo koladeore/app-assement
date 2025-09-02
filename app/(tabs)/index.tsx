@@ -135,11 +135,8 @@ export default function ProductListScreen() {
 
   return (
     <View className="flex-1 bg-gray-50">
-      <View className="bg-primary-500 pt-12 pb-6 px-4">
-        <Text className="text-2xl font-bold text-white mb-4">
-          Shop Products
-        </Text>
-        <View className="flex-row items-center bg-white rounded-lg px-4 py-3">
+      <View className="bg-primary-500 pt-6 pb-6 px-4">
+        <View className="flex-row items-center bg-gray-100 rounded-lg px-4 py-3">
           <Ionicons name="search" size={20} color="#6b7280" />
           <TextInput
             className="flex-1 ml-3 text-gray-900"
